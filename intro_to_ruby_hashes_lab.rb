@@ -19,7 +19,6 @@ end
 def id_generator
   #:id_generator.object_id
   { id: rand(10) }
-
 end
 
 def my_hash_creator(key, value)
