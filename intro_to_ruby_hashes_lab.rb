@@ -17,7 +17,8 @@ def pioneer
 end
 
 def id_generator
-  :i_am_a_symbol.object_id
+  #:id_generator.object_id
+  { id: rand(10) }
 end
 
 def my_hash_creator(key, value)
