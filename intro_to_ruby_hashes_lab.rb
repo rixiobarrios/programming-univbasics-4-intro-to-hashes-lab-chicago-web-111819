@@ -1,13 +1,17 @@
 def new_hash
-  # return an empty hash
+  empty_hash = Hash.new
+  #empty_hash = {}
+  empty_hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  my_hash = {"key" => "value", "another_key" => "another_value"}
+  my_hash
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  pioneer = {:name => "Bob", :value => "Grace Hopper"}
+  pioneer
 end
 
 def id_generator
