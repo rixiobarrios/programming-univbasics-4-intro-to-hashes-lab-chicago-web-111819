@@ -10,8 +10,10 @@ def my_hash
 end
 
 def pioneer
-  pioneer = {:name => "Bob", :value => "Grace Hopper"}
-  pioneer
+  pioneer = {
+    :name => " ", 
+    :value => "Grace Hopper"
+  }
 end
 
 def id_generator
