@@ -19,10 +19,11 @@ end
 def id_generator
   #:id_generator.object_id
   { id: rand(10) }
+
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+    my_hash_creator = {:name => "Bill Nye", :value => "The Science Guy"}
 end
 
 def read_from_hash(hash, key)
